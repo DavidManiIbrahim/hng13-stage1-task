@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>About Me — David Mani Ibrahim</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="hng.png" type="image/x-icon">
+</head>
+<body>
+    <main data-testid="test-about-page">
+        <article class="profile-card" aria-labelledby="about-heading">
+            <header>
+                <h1 id="about-heading">About Me</h1>
+            </header>
+
+            <section aria-labelledby="intro-heading" data-testid="test-about-intro">
+                <h2 id="intro-heading">Introduction</h2>
+                <p>
+                    I'm David Mani Ibrahim, a web developer from Jalingo Taraba State, Nigeria. I enjoy building
+                    accessible and responsive web experiences. This page contains reflections and skills.
+                </p>
+            </section>
+
+            <section aria-labelledby="reflection-heading" data-testid="test-about-reflection">
+                <h2 id="reflection-heading">Reflections</h2>
+                <p>
+                    Working on the Hng Internship challenge has helped me prioritise semantic HTML,
+                    accessibility, and small, testable components. I focused on clear labels, keyboard
+                    navigation, and meaningful aria attributes.
+                </p>
+            </section>
+
+            <section aria-labelledby="skills-heading" data-testid="test-about-skills">
+                <h2 id="skills-heading">Skills & Interests</h2>
+                <h3>Technologies</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                </ul>
+            </section>
+
+            <nav style="margin-top:1rem; text-align:center;">
+                               <a href="index.html" class="btn btn-ghost" data-testid="test-back-profile">Back to Profile</a>
+
+            </nav>
+        </article>
+    </main>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David Mani Ibrahim - Profile Card</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="shortcut icon" href="hng.png" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <article class="profile-card" data-testid="test-profile-card">
+            <figure class="profile-image">
+                <img src="owner.jpg" alt="David Mani Ibrahim's profile photo" data-testid="test-user-avatar">
+            </figure>
+
+            <div class="profile-content">
+                <header>
+                    <h1 data-testid="test-user-name">David Mani Ibrahim</h1>
+                    <p data-testid="test-user-bio">
+                        Passionate web developer and tech enthusiast based in Jalingo, Nigeria. 
+                        I love building accessible web solutions that enhance user experience.
+                    </p>
+                </header>
+
+                <section class="time-section">
+                   
+                    
+                    <p data-testid="currentTimeUTC" id="utcTime">Current Time:</p>
+                </section>
+
+                <nav class="social-links" data-testid="test-user-social-links">
+                    <a href="https://" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-linkedin">LinkedIn</a>
+                    <a href="https://github.com/davidmaniibrahim" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-github">GitHub</a>
+                    <a href="https://x.com/mani_ibrah18135" target="_blank" rel="noopener noreferrer" data-testid="test-user-social-twitter">Twitter</a>
+                </nav>
+
+                <div class="profile-actions">
+                    <a class="action-button" href="about.html" data-testid="test-nav-about">About Me</a>
+                    <a class="action-button" href="contact.html" data-testid="test-nav-contact">Contact Me</a>
+                </div>
+
+                <section class="interests">
+                    <h2>Interests</h2>
+                    <div class="lists-container">
+                        <div class="hobbies">
+                            <h3>Hobbies</h3>
+                            <ul data-testid="test-user-hobbies">
+                                <li>Coding</li>
+                                <li>Watching Anime</li>
+                                <li>Reading Tech Articles</li>
+                                <li>Learning New Technologies</li>
+                            </ul>
+                        </div>
+
+                        <div class="dislikes">
+                            <h3>Dislikes</h3>
+                            <ul data-testid="test-user-dislikes">
+                                <li>Procrastination</li>
+                                <li>Poor Documentation</li>
+                                <li>Inaccessible Websites</li>
+                                <li>Unreliable Internet</li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+            
+            </div>
+        </article>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
