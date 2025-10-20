@@ -92,6 +92,11 @@ header h1 {
 }
 
 /* Lists */
+
+h3, #intro-heading, #reflection-heading, #form-heading{
+       color: #007bff;
+}
+
 .interests {
     margin-top: 1rem;
 }
