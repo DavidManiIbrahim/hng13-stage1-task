@@ -1,14 +1,10 @@
+    // Display current UTC time
+        function updateTime() {
+            const now = new Date();
+            const utcString = now.toUTCString();
+            document.getElementById('utcTime').textContent = `Current Time (UTC): ${utcString}`;
+        }
 
-
-
-function updateTime() {
-    const utcTimeElement = document.getElementById("utcTime");
-    const msElement = document.getElementById("currentTime");
-    const now = new Date();
-   
-    // Show UTC string
-    utcTimeElement.textContent = `Current Time UTC: ${now.toUTCString()}`;
-}
-
-setInterval(updateTime, 100);
-updateTime();
+        // Update time immediately and then every second
+        updateTime();
+        setInterval(updateTime, 1000);

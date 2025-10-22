@@ -4,8 +4,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <title>Contact Me</title>
-    <link rel="stylesheet" href="styles.css">
-    <link rel="shortcut icon" href="hng.png" type="image/x-icon">
+    <link rel="shortcut icon" href="/assets/hng.png" type="image/x-icon">
+   <link rel="stylesheet" href="./contact.css">
 </head>
 <body>
     <main data-testid="test-contact-page">
@@ -21,19 +21,19 @@
                 <form id="contactForm" novalidate>
                     <div class="form-row">
                         <label for="name">Name</label>
-                        <input type="text" id="name" name="name" data-testid="test-contact-name" required aria-required="true" aria-describedby="nameError">
+                        <input type="text" id="name" name="name" data-testid="test-contact-name" required aria-required="true" aria-describedby="nameError" placeholder="Enter your full name">
                         <div class="error" id="nameError" aria-live="polite"></div>
                     </div>
 
                     <div class="form-row">
                         <label for="email">Email</label>
-                        <input type="email" id="email" name="email" data-testid="test-contact-email" required aria-required="true" aria-describedby="emailError">
+                        <input type="email" id="email" name="email" data-testid="test-contact-email" required aria-required="true" aria-describedby="emailError" placeholder="Enter your email address">
                         <div class="error" id="emailError" aria-live="polite"></div>
                     </div>
 
                     <div class="form-row">
                         <label for="message">Message</label>
-                        <textarea id="message" name="message" rows="6" data-testid="test-contact-message" required aria-required="true" aria-describedby="messageError"></textarea>
+                        <textarea id="message" name="message" rows="6" data-testid="test-contact-message" required aria-required="true" aria-describedby="messageError" placeholder="Write your message here..."></textarea>
                         <div class="error" id="messageError" aria-live="polite"></div>
                     </div>
 
@@ -46,11 +46,11 @@
             </section>
 
             <nav>
-                <a href="index.html" class="btn btn-ghost" data-testid="test-back-profile">Back to Profile</a>
+                <a href="../index.html" class="btn btn-ghost" data-testid="test-back-profile">Back to Profile</a>
             </nav>
         </article>
     </main>
 
-    <script src="contact.js"></script>
+    <script src="./contact.js"> </script>
 </body>
 </html>
